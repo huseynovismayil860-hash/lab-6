@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .nav {
+            background: black;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav a { color: white; text-decoration: underline; margin-right: 15px; }
+        .login { border: 1px solid white; padding: 5px 10px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+        <a href="#" class="login">Login</a>
+    </div>
+</body>
+</html>
