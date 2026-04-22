@@ -1,0 +1,25 @@
+!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .button {
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            margin: 5px;
+        }
+        .normal { background: #5aa0e1; }
+        .outline { background: white; color: #5aa0e1; border: 2px solid #5aa0e1; }
+        .ugur { background: #62c47d; }
+        .tehluke { background: #e6644d; }
+    </style>
+</head>
+<body>
+    <button class="button normal">Normal</button>
+    <button class="button outline">Outline</button>
+    <button class="button ugur">Uğur</button>
+    <button class="button tehluke">Təhlükə</button>
+</body>
+</html>
